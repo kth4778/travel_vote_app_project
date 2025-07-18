@@ -20,7 +20,8 @@ from .serializers import (
 # 다른 앱의 모델들을 가져옴
 from users.models import User
 from accommodations.models import Accommodation
-
+# 기존 import 문들 아래에 추가
+from django.db import models  # models.Min, models.Max를 위해 필요
 
 # =============================================================================
 # 투표 관련 API Views
@@ -467,3 +468,88 @@ def user_activity_summary(request, user_id):
         'voted_accommodations': list(voted_accommodations),
         'message': f'{user.name}님의 활동 요약입니다.'
     }, status=status.HTTP_200_OK)
+
+
+class UserVoteListView(generics.ListAPIView):
+    """
+    GET: 특정 사용자의 모든 투표 목록 조회
+    URL: /api/users/{user_id}/votes/
+    """
+
+    # 사용할 serializer 지정
+    serializer_class = VoteSerializer
+
+    # 쿼리셋 동적 생성 (URL 파라미터 기반)
+    def get_queryset(self):
+        """
+        URL 파라미터의 사용자 ID에 해당하는 투표들만 반환
+        """
+        user_id = self.kwargs.get('user_id')
+        return Vote.objects.filter(user_id=user_id).select_related(
+            'user', 'accommodation'
+        ).order_by('-created_at')
+
+
+# 특정 사용자의 댓글 목록을 위한 API View
+class UserCommentListView(generics.ListAPIView):
+    """
+    GET: 특정 사용자의 모든 댓글 목록 조회
+    URL: /api/users/{user_id}/comments/
+    """
+
+    # 사용할 serializer 지정
+    serializer_class = CommentSerializer
+
+    # 쿼리셋 동적 생성 (URL 파라미터 기반)
+    def get_queryset(self):
+        """
+        URL 파라미터의 사용자 ID에 해당하는 댓글들만 반환
+        """
+        user_id = self.kwargs.get('user_id')
+        return Comment.objects.filter(user_id=user_id).select_related(
+            'user', 'accommodation'
+        ).order_by('-created_at')
+
+
+# 파일 맨 아래에 추가 (기존 내용 아래에)
+
+# 특정 숙소의 투표 목록을 위한 API View
+class AccommodationVoteListView(generics.ListAPIView):
+    """
+    GET: 특정 숙소의 모든 투표 목록 조회
+    URL: /api/accommodations/{accommodation_id}/votes/
+    """
+
+    # 사용할 serializer 지정
+    serializer_class = VoteSerializer
+
+    # 쿼리셋 동적 생성 (URL 파라미터 기반)
+    def get_queryset(self):
+        """
+        URL 파라미터의 숙소 ID에 해당하는 투표들만 반환
+        """
+        accommodation_id = self.kwargs.get('accommodation_id')
+        return Vote.objects.filter(accommodation_id=accommodation_id).select_related(
+            'user', 'accommodation'
+        ).order_by('-created_at')
+
+
+# 특정 숙소의 댓글 목록을 위한 API View
+class AccommodationCommentListView(generics.ListAPIView):
+    """
+    GET: 특정 숙소의 모든 댓글 목록 조회
+    URL: /api/accommodations/{accommodation_id}/comments/
+    """
+
+    # 사용할 serializer 지정
+    serializer_class = CommentSerializer
+
+    # 쿼리셋 동적 생성 (URL 파라미터 기반)
+    def get_queryset(self):
+        """
+        URL 파라미터의 숙소 ID에 해당하는 댓글들만 반환
+        """
+        accommodation_id = self.kwargs.get('accommodation_id')
+        return Comment.objects.filter(accommodation_id=accommodation_id).select_related(
+            'user', 'accommodation'
+        ).order_by('-created_at')

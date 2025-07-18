@@ -18,6 +18,8 @@ from .serializers import (
     AccommodationImageUploadSerializer
 )
 
+from django.db.models import Min, Max 
+
 
 # 모든 숙소 조회 및 새 숙소 생성을 위한 API View
 class AccommodationListCreateView(generics.ListCreateAPIView):
@@ -254,10 +256,9 @@ def accommodation_stats(request):
     # 가격 통계 계산
     price_stats = Accommodation.objects.aggregate(
         average_price=Avg('price'),
-        min_price=models.Min('price'),
-        max_price=models.Max('price')
+        min_price=Min('price'),  # models.Min -> Min
+        max_price=Max('price')  # models.Max -> Max
     )
-
     # 투표 통계 계산
     from votes.models import Vote
     total_votes = Vote.objects.count()
