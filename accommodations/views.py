@@ -32,8 +32,7 @@ class AccommodationListCreateView(generics.ListCreateAPIView):
     # 조회할 데이터 쿼리셋 지정 (관련 데이터 미리 로드로 성능 최적화)
     queryset = Accommodation.objects.prefetch_related(
         'images',  # 숙소 이미지들
-        'votes',  # 투표 정보들
-        'comments'  # 댓글들
+        'votes'  # 투표 정보들
     ).order_by('-created_at')  # 최신 순으로 정렬
 
     # GET 요청 시 사용할 serializer
@@ -52,47 +51,7 @@ class AccommodationListCreateView(generics.ListCreateAPIView):
 
     # GET 요청 처리 (숙소 목록 조회)
     def get_queryset(self):
-        """
-        쿼리 파라미터에 따라 필터링된 숙소 목록 반환
-        지원되는 필터: 검색, 가격 범위, 편의시설
-        """
-        queryset = super().get_queryset()
-
-        # 검색 기능 (이름 또는 위치로 검색)
-        search = self.request.query_params.get('search', None)
-        if search:
-            queryset = queryset.filter(
-                Q(name__icontains=search) | Q(location__icontains=search)
-            )
-
-        # 가격 범위 필터
-        min_price = self.request.query_params.get('min_price', None)
-        max_price = self.request.query_params.get('max_price', None)
-
-        if min_price:
-            queryset = queryset.filter(price__gte=min_price)
-        if max_price:
-            queryset = queryset.filter(price__lte=max_price)
-
-        # 편의시설 필터 (wifi, parking, pool, restaurant, kitchen)
-        amenities = self.request.query_params.get('amenities', None)
-        if amenities:
-            # 쉼표로 구분된 편의시설 목록 파싱
-            amenity_list = [amenity.strip() for amenity in amenities.split(',')]
-            # 모든 요구 편의시설이 포함된 숙소만 필터링
-            for amenity in amenity_list:
-                queryset = queryset.filter(amenities__contains=amenity)
-
-        # 정렬 기능 (created_at, price, rating 지원)
-        ordering = self.request.query_params.get('ordering', None)
-        if ordering:
-            if ordering in ['created_at', '-created_at', 'price', '-price']:
-                queryset = queryset.order_by(ordering)
-            elif ordering in ['rating', '-rating']:
-                # 평균 평점으로 정렬 (복잡한 정렬이므로 추후 구현)
-                pass
-
-        return queryset
+        return Accommodation.objects.all().order_by('-created_at')
 
     # POST 요청 처리 (숙소 생성)
     def perform_create(self, serializer):
@@ -120,7 +79,6 @@ class AccommodationDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Accommodation.objects.prefetch_related(
         'images',
         'votes__user',  # 투표한 사용자 정보도 함께 로드
-        'comments__user'  # 댓글 작성자 정보도 함께 로드
     )
 
     # 기본 serializer 지정
@@ -143,15 +101,10 @@ class AccommodationDetailView(generics.RetrieveUpdateDestroyAPIView):
         숙소 삭제 시 추가 로직 처리
         instance: 삭제할 Accommodation 인스턴스
         """
-        # 투표나 댓글이 있는 숙소는 삭제 제한 (선택사항)
-        if instance.votes.exists() or instance.comments.exists():
-            from rest_framework.exceptions import ValidationError
-            raise ValidationError("투표나 댓글이 있는 숙소는 삭제할 수 없습니다.")
-
         # 로그에 숙소 삭제 기록
         print(f"숙소 삭제: {instance.name}")
 
-        # 실제 삭제 수행 (관련 이미지 파일도 자동 삭제됨)
+        # 실제 삭제 수행 (관련 투표, 댓글, 이미지 파일도 자동 삭제됨)
         instance.delete()
 
 

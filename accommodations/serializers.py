@@ -96,7 +96,7 @@ class AccommodationCreateSerializer(serializers.ModelSerializer):
 
         # 클라이언트에서 받을 필드들 지정 (이미지는 별도 처리)
         fields = [
-            'name', 'location', 'price', 'description',
+            'id', 'name', 'location', 'price', 'description',
             'check_in', 'check_out', 'amenities'
         ]
 

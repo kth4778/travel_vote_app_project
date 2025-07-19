@@ -5,7 +5,7 @@ from django.urls import path
 from . import views
 
 # votes 앱에서 필요한 뷰들 가져오기 (accommodations가 아닌 votes에서!)
-from votes.views import user_activity_summary, UserVoteListView, UserCommentListView
+from votes.views import user_activity_summary, UserVoteListView
 
 # 앱 이름 설정
 app_name = 'users'
@@ -21,5 +21,4 @@ urlpatterns = [
     # votes 앱에서 가져온 함수와 클래스들 사용
     path('<int:user_id>/activity/', user_activity_summary, name='user-activity'),
     path('<int:user_id>/votes/', UserVoteListView.as_view(), name='user-votes'),
-    path('<int:user_id>/comments/', UserCommentListView.as_view(), name='user-comments'),
 ]

@@ -66,10 +66,25 @@ WSGI_APPLICATION = 'travel_vote_backend.wsgi.application'
 
 # Database
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',  # SQLite 엔진 사용
+#         'NAME': BASE_DIR / 'db.sqlite3',  # 데이터베이스 파일 경로
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',  # SQLite 엔진 사용
-        'NAME': BASE_DIR / 'db.sqlite3',  # 데이터베이스 파일 경로
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT', default='3306'),
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        },
     }
 }
 #

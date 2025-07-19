@@ -34,7 +34,7 @@ urlpatterns = [
     # 투표 및 댓글 관련 API
     # /api/votes/ - votes 앱의 투표 관련 URL 패턴 포함
     # /api/comments/ - votes 앱의 댓글 관련 URL 패턴 포함
-    path('api/', include('votes.urls')),
+    path('api/votes/', include('votes.urls')),
 ]
 
 # 개발 환경에서만 미디어 파일 서빙 설정

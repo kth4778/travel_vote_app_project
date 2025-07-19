@@ -5,7 +5,7 @@ from django.urls import path
 from . import views
 
 # votes 앱에서 필요한 클래스들 import (투표와 댓글은 votes 앱에서 관리)
-from votes.views import AccommodationVoteListView, AccommodationCommentListView
+from votes.views import AccommodationVoteListView
 
 # 앱 이름 설정 (URL 네임스페이스 구분용)
 app_name = 'accommodations'
@@ -44,10 +44,6 @@ urlpatterns = [
     # 특정 숙소의 투표 목록 (votes 앱에서 가져온 클래스 사용)
     # GET /api/accommodations/{accommodation_id}/votes/ - 특정 숙소의 모든 투표 조회
     path('<int:accommodation_id>/votes/', AccommodationVoteListView.as_view(), name='accommodation-votes'),
-
-    # 특정 숙소의 댓글 목록 (votes 앱에서 가져온 클래스 사용)
-    # GET /api/accommodations/{accommodation_id}/comments/ - 특정 숙소의 모든 댓글 조회
-    path('<int:accommodation_id>/comments/', AccommodationCommentListView.as_view(), name='accommodation-comments'),
 
     # 개별 이미지 삭제
     # DELETE /api/accommodations/images/{image_id}/ - 특정 이미지 삭제 (관리자 전용)

@@ -28,24 +28,4 @@ urlpatterns = [
     # PATCH /api/votes/{id}/ - 특정 투표 부분 수정
     # DELETE /api/votes/{id}/ - 특정 투표 삭제
     path('<int:pk>/', views.VoteDetailView.as_view(), name='vote-detail'),
-
-    # =========================================================================
-    # 댓글 관련 URL 패턴
-    # =========================================================================
-
-    # 댓글 목록 조회 및 새 댓글 생성
-    # GET /api/comments/ - 모든 댓글 목록 조회 (필터링, 검색 지원)
-    # POST /api/comments/ - 새로운 댓글 생성
-    path('comments/', views.CommentListCreateView.as_view(), name='comment-list-create'),
-
-    # 댓글 통계 정보
-    # GET /api/comments/stats/ - 댓글 통계 조회 (전체 댓글 수, 활발한 사용자 등)
-    path('comments/stats/', views.comment_stats, name='comment-stats'),
-
-    # 특정 댓글 상세 정보
-    # GET /api/comments/{id}/ - 특정 댓글 정보 조회
-    # PUT /api/comments/{id}/ - 특정 댓글 수정 (작성자만 가능)
-    # PATCH /api/comments/{id}/ - 특정 댓글 부분 수정 (작성자만 가능)
-    # DELETE /api/comments/{id}/ - 특정 댓글 삭제 (작성자만 가능)
-    path('comments/<int:pk>/', views.CommentDetailView.as_view(), name='comment-detail'),
 ]
