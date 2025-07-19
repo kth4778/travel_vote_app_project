@@ -1,7 +1,6 @@
 # Django의 관리자 사이트와 URL 관련 기능을 가져옴
 from django.contrib import admin
-from django.urls import path, include, re_path # re_path 추가
-from django.views.static import serve # serve 뷰 임포트
+from django.urls import path, include
 
 # 미디어 파일 서빙을 위한 기능을 가져옴
 from django.conf import settings
@@ -16,11 +15,7 @@ urlpatterns = [
 ]
 
 # 미디어 파일을 서빙하기 위한 설정 (프로덕션에서도 강제)
-# DEBUG=False일 때 static 헬퍼는 작동하지 않으므로, serve 뷰를 직접 사용
-if not settings.DEBUG:
-    urlpatterns += [
-        re_path(r'^media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
-    ]
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # 개발 환경에서만 정적 파일 서빙 설정
 if settings.DEBUG:
