@@ -10,32 +10,20 @@ from django.conf.urls.static import static
 from rest_framework.documentation import include_docs_urls
 
 # 메인 프로젝트의 URL 패턴 정의
+from django.conf import settings # settings import
+from django.conf.urls.static import static # static import
+
 urlpatterns = [
-    # Django 관리자 페이지
-    # /admin/ - Django 관리자 인터페이스 접속
     path('admin/', admin.site.urls),
-    
-    # API 문서 페이지 (개발 중에만 사용)
-    # /docs/ - Django REST Framework 자동 생성 API 문서
-    path('docs/', include_docs_urls(title='Travel Vote API')),
-    
-    # =========================================================================
-    # API 엔드포인트들 (모든 API는 /api/ 접두사 사용)
-    # =========================================================================
-    
-    # 사용자 관련 API
-    # /api/users/ - users 앱의 모든 URL 패턴 포함
-    path('api/users/', include('users.urls')),
-    
-    # 숙소 관련 API
-    # /api/accommodations/ - accommodations 앱의 모든 URL 패턴 포함
-    path('api/accommodations/', include('accommodations.urls')),
-    
-    # 투표 및 댓글 관련 API
-    # /api/votes/ - votes 앱의 투표 관련 URL 패턴 포함
-    # /api/comments/ - votes 앱의 댓글 관련 URL 패턴 포함
-    path('api/votes/', include('votes.urls')),
+    path('api/', include('accommodations.urls')), # accommodations 앱의 URL 포함
+    path('api/', include('users.urls')), # users 앱의 URL 포함
+    path('api/', include('votes.urls')), # votes 앱의 URL 포함
+    path('api-auth/', include('rest_framework.urls')), # DRF 로그인/로그아웃 URL
 ]
+
+# 개발 환경에서 미디어 파일을 서빙하기 위한 설정
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # 개발 환경에서만 미디어 파일 서빙 설정
 if settings.DEBUG:

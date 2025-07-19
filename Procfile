@@ -1,0 +1,1 @@
+web: gunicorn travel_vote_backend.wsgi --log-file -
