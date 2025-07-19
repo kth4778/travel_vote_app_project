@@ -6,13 +6,6 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-# Django REST Framework의 API 문서 생성을 위한 기능
-from rest_framework.documentation import include_docs_urls
-
-# 메인 프로젝트의 URL 패턴 정의
-from django.conf import settings # settings import
-from django.conf.urls.static import static # static import
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('accommodations.urls')), # accommodations 앱의 URL 포함
@@ -21,18 +14,11 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')), # DRF 로그인/로그아웃 URL
 ]
 
-# 개발 환경에서 미디어 파일을 서빙하기 위한 설정
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# 미디어 파일을 서빙하기 위한 설정 (프로덕션에서도 강제)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# 개발 환경에서만 미디어 파일 서빙 설정
+# 개발 환경에서만 정적 파일 서빙 설정
 if settings.DEBUG:
-    # 미디어 파일 URL 패턴 추가 (업로드된 이미지 파일들)
-    # /media/ - 업로드된 파일들에 접근하기 위한 URL
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    
-    # 정적 파일 URL 패턴 추가 (CSS, JS 파일들)
-    # /static/ - 정적 파일들에 접근하기 위한 URL
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 # API 엔드포인트 요약 (주석으로 문서화)
