@@ -1,2 +1,1 @@
-    web: python manage.py createsuperuser --noinput && gunicorn travel_vote_backend.wsgi
---log-file -
+web: python manage.py createsuperuser --noinput && gunicorn travel_vote_backend.wsgi --log-file -
