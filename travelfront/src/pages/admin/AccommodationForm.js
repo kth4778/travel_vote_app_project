@@ -9,6 +9,7 @@ import { ArrowLeft, Save, Upload, X, Plus, Trash2 } from 'lucide-react';
 
 // Context Hook
 import { useApp } from '../../context/AppContext';
+import ReactMarkdown from 'react-markdown';
 
 // 숙소 등록/수정 폼 컴포넌트
 const AccommodationForm = () => {
@@ -333,6 +334,10 @@ const AccommodationForm = () => {
                                     }`}
                                     placeholder="숙소에 대한 자세한 설명을 입력해주세요..."
                                 />
+                                <p className="text-sm text-gray-500 mt-1">
+                                    💡 줄 바꿈, 굵게 등 서식 지정을 위해 Markdown 문법을 사용할 수 있습니다.
+                                    (예: **굵게**, *기울임*, - 목록)
+                                </p>
                                 {errors.description && <p className="text-red-500 text-sm mt-1">{errors.description}</p>}
                             </div>
                         </div>
@@ -471,9 +476,11 @@ const AccommodationForm = () => {
                                 </div>
                             </div>
 
-                            <p className="text-gray-700 mb-4">
-                                {formData.description || '설명을 입력하세요...'}
-                            </p>
+                            <div className="prose prose-sm max-w-none text-gray-700 mb-4">
+                                <ReactMarkdown>
+                                    {formData.description || '설명을 입력하세요...'}
+                                </ReactMarkdown>
+                            </div>
 
                             {/* 편의시설 미리보기 */}
                             {formData.amenities.length > 0 && (

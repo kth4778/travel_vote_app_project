@@ -107,7 +107,10 @@ class AccommodationCreateSerializer(serializers.ModelSerializer):
         value: 클라이언트에서 입력한 편의시설 리스트
         """
         # 허용되는 편의시설 목록
-        allowed_amenities = ['wifi', 'parking', 'pool', 'restaurant', 'kitchen']
+        allowed_amenities = [
+            'wifi', 'parking', 'pool', 'restaurant', 'kitchen',
+            'valley', 'sea', 'ocean_view', 'bbq', 'karaoke', 'billiards', 'foot_volleyball'
+        ]
 
         # 입력된 편의시설이 허용 목록에 있는지 확인
         if value:

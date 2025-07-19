@@ -27,6 +27,7 @@ import { useApp } from '../../context/AppContext';
 
 // 유틸리티 함수
 import { formatPrice, getTimeAgo } from '../../utils/helpers';
+import ReactMarkdown from 'react-markdown';
 
 // 통계 카드 컴포넌트
 const StatsCard = ({ icon: Icon, title, value, subtitle, color = 'blue', trend }) => (
@@ -272,7 +273,9 @@ const AdminDashboard = () => {
                                                     <MapPin className="w-4 h-4" />
                                                     <span>{accommodation.location}</span>
                                                 </div>
-                                                <p className="text-gray-700 text-sm mb-3 line-clamp-2">{accommodation.description}</p>
+                                                <div className="prose prose-sm max-w-none text-gray-700 text-sm mb-3 line-clamp-2">
+                                                    <ReactMarkdown>{accommodation.description}</ReactMarkdown>
+                                                </div>
                                                 <div className="flex items-center gap-4 text-sm text-gray-600">
                                                     <span className="font-medium">{formatPrice(accommodation.price)}/박</span>
                                                     <span>{accommodation.images?.length || 0}개 이미지</span>

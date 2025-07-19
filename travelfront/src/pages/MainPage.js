@@ -12,6 +12,7 @@ import { useApp } from '../context/AppContext';
 
 // 유틸리티 함수
 import { formatPrice, getAmenityIcon, getAmenityName, getTimeAgo } from '../utils/helpers';
+import ReactMarkdown from 'react-markdown';
 
 // 메인 페이지 컴포넌트
 const MainPage = () => {
@@ -347,7 +348,9 @@ const MainPage = () => {
               </div>
             </div>
 
-            <p className="text-gray-700 mb-4">{currentAccom.description}</p>
+            <div className="prose prose-sm max-w-none text-gray-700 mb-4">
+                <ReactMarkdown>{currentAccom.description}</ReactMarkdown>
+            </div>
 
             {/* 편의시설 */}
             {currentAccom.amenities && currentAccom.amenities.length > 0 && (
