@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Django 백엔드 서버 주소 설정
-const BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000/api';
 
 // axios 인스턴스 생성 (기본 설정 포함)
 const api = axios.create({
