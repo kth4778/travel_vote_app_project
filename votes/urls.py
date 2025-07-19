@@ -16,7 +16,7 @@ urlpatterns = [
     # 투표 목록 조회 및 새 투표 생성
     # GET /api/votes/ - 모든 투표 목록 조회 (필터링 지원)
     # POST /api/votes/ - 새로운 투표 생성 (기존 투표 있으면 업데이트)
-    path('', views.VoteListCreateView.as_view(), name='vote-list-create'),
+    path('votes/', views.VoteListCreateView.as_view(), name='vote-list-create'),
 
     # 투표 통계 정보
     # GET /api/votes/stats/ - 투표 통계 조회 (전체 투표 수, 평균 평점, 평점 분포 등)

@@ -15,7 +15,7 @@ urlpatterns = [
     # 숙소 목록 조회 및 새 숙소 생성
     # GET /api/accommodations/ - 모든 숙소 목록 조회 (검색, 필터링 지원)
     # POST /api/accommodations/ - 새로운 숙소 생성 (관리자 전용)
-    path('', views.AccommodationListCreateView.as_view(), name='accommodation-list-create'),
+    path('accommodations/', views.AccommodationListCreateView.as_view(), name='accommodation-list-create'),
 
     # 숙소 통계 정보
     # GET /api/accommodations/stats/ - 숙소 통계 조회

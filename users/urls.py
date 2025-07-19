@@ -12,7 +12,7 @@ app_name = 'users'
 
 # URL 패턴 정의 리스트
 urlpatterns = [
-    path('', views.UserListCreateView.as_view(), name='user-list-create'),
+    path('users/', views.UserListCreateView.as_view(), name='user-list-create'),
     path('login/', views.user_login, name='user-login'),
     path('stats/', views.user_stats, name='user-stats'),
     path('<int:pk>/', views.UserDetailView.as_view(), name='user-detail'),
