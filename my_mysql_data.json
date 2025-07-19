@@ -1,0 +1,1559 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-18T13:27:06.415Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "운태",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-18T13:27:13.917Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "원태",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-18T13:27:16.999Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "희성",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-18T13:27:19.375Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "현식",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-18T13:27:22.369Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "준태",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-18T13:27:24.832Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "동현",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-18T13:27:27.642Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "래현",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-18T13:27:31.049Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "민기",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-18T13:27:33.830Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "병현",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-18T13:27:36.459Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "상민",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-18T13:27:39.032Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "상준",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-18T13:27:41.307Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "제준",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-18T13:27:44.310Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "진홍",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-18T13:27:47.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "준엽",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.104Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "27",
+    "object_repr": "진홍 - 테스트1 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.117Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "26",
+    "object_repr": "진홍 - 테스트 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.125Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "25",
+    "object_repr": "준태 - 테스트1 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.132Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "24",
+    "object_repr": "준태 - 테스트 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.138Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "23",
+    "object_repr": "준엽 - 테스트1 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.144Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "준엽 - 테스트 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.149Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "원태 - 테스트 (4점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.156Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "운태 - 테스트 (4점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.162Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "운태 - 테스트1 (1점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-18T19:02:33.169Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "원태 - 테스트1 (1점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.837Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "33",
+    "object_repr": "원태 - 쌍곡 떡바위산장 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.844Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "32",
+    "object_repr": "원태 - 노적봉리조트 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.848Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "31",
+    "object_repr": "원태 - 가평 해뜨는숲속펜션 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.852Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "30",
+    "object_repr": "원태 - 가평 에스티하우스펜션 (바베큐 무한리필) 무료 (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.857Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "29",
+    "object_repr": "원태 - 대부도 팬션 밸리 (스피카) (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-19T16:12:04.861Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "28",
+    "object_repr": "원태 - 대부도 팬션 밸리 (가람) (5점)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EwPPIl4pdUUvSnTj8zoirF$DAHB70Mxd3x3OKGiZhJhoiKGAcD/tjCg3AKh1/ydEiU=",
+    "last_login": "2025-07-19T16:11:55.336Z",
+    "is_superuser": true,
+    "username": "kth4778",
+    "first_name": "",
+    "last_name": "",
+    "email": "kth4778@naver.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-18T13:24:34.846Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accommodations",
+    "model": "accommodation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accommodations",
+    "model": "accommodationimage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "votes",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "votes",
+    "model": "vote"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7zk4ijjsi7glhba1l2tuwe5in9jxawgs",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSEByy9l-pwBLbAEJxFIxq6s3D225CKpRpr3ZjYWcF1qWAfNYcrsygS7_HYR04vaAfIT26Pz1NsyT5EfCj_p4Pee6X073b-DiqPua7KodBI62ewNgS4RCiqUwqpYDCGBB_BFaVnAqST3KJZMdtFZJy2xzxf0Jzgi:1ucl6s:_pQW13R3vAqQ69F3mh7r0aw--ACb3lYEH8zCGI_VdJ4",
+    "expire_date": "2025-08-01T13:26:46.807Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tabmi6wp30kzm2kgtx1d9tuh0irhsn9l",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSEByy9l-pwBLbAEJxFIxq6s3D225CKpRpr3ZjYWcF1qWAfNYcrsygS7_HYR04vaAfIT26Pz1NsyT5EfCj_p4Pee6X073b-DiqPua7KodBI62ewNgS4RCiqUwqpYDCGBB_BFaVnAqST3KJZMdtFZJy2xzxf0Jzgi:1udAAF:Hxl7Wm08DNjGhqME-Stp62LnDyYw2-LM0z5JytuqKLo",
+    "expire_date": "2025-08-02T16:11:55.347Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "name": "운태",
+    "is_admin": true,
+    "created_at": "2025-07-18T13:27:06.414Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "name": "원태",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:13.917Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "name": "희성",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:16.998Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "name": "현식",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:19.374Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "name": "준태",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:22.369Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "name": "동현",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:24.832Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 7,
+  "fields": {
+    "name": "래현",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:27.641Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 8,
+  "fields": {
+    "name": "민기",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:31.048Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 9,
+  "fields": {
+    "name": "병현",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:33.829Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 10,
+  "fields": {
+    "name": "상민",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:36.458Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 11,
+  "fields": {
+    "name": "상준",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:39.031Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 12,
+  "fields": {
+    "name": "제준",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:41.306Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 13,
+  "fields": {
+    "name": "진홍",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:44.309Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 14,
+  "fields": {
+    "name": "준엽",
+    "is_admin": false,
+    "created_at": "2025-07-18T13:27:47.393Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 19,
+  "fields": {
+    "name": "쌍곡 떡바위산장",
+    "location": "충북 괴산군 칠성면 쌍곡로 554",
+    "price": 290000,
+    "description": "*주의사항*\n\n@계곡 이용 시 꼭 구명조끼나 튜브를 착용하고  \n물놀이를 하세요@\n\n[펜션 이용 시 유의 사항]\n\n1. **모든 객실은 최대 인원 초과 불가**  \n  (예약 인원 외 단순 방문 손님도 추가 요금 발생)\n\n2. **22시 이후 에티켓 타임**  \n  소음 민원 발생 시  \n  → 영업방해로 간주, 환불 없이 강제 퇴실될 수 있습니다.\n\n3. **객실 내 벌레 주의**  \n  산/계곡에 위치하여 벌레가 들어올 수 있습니다.  \n  (야외 바베큐는 **6시 전**에 하시는 걸 추천)\n\n4. **수영장 안내**  \n  독채A, B, 송이, 능이방 전용  \n  (6~8월만 운영, 미온수 불가)\n\n5. **기타 객실은 수영장 사용 불가**  \n  (계곡을 이용해 주세요)\n\n6. **노래방 이용**  \n  - 독채A/B, 송이/능이방: 객실 내 가능  \n  - 나머지 방: 세미나실에서만 가능  \n    (이용료 2시간 10만 원)\n\n7. **반려동물 입실 불가**\n\n[인원 추가 요금]\n\n- 기준 인원 초과 시: **인당 2만 원 (현장 결제)**\n- 최대 인원 초과 시: **인당 3만 원 (사전 협의 시)**\n- 24개월 미만: 추가 요금 무료 (인원 수에는 포함)\n\n**BBQ 사용 요금**\n\n- 기본 요금: 2.5만 원(최대 4인)\n- 인원 추가 시:  \n  5~6인 3만 원 / 7~8인 3.5만 원  \n  (숯 추가 시 1인당 5천 원씩 추가)\n\n- 장갑, 철망, 숯집게 제공  \n- 숯불은 미리 피워드리니,  \n  **먹기 30분 전에 꼭 신청** 해주세요!  \n  (불 붙는 데 시간이 걸립니다)",
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "amenities": [],
+    "created_at": "2025-07-19T14:30:20.196Z",
+    "updated_at": "2025-07-19T14:54:14.826Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 20,
+  "fields": {
+    "name": "노적봉리조트",
+    "location": "충북 괴산군 칠성면 쌍곡로 695 쌍곡리191-1",
+    "price": 290000,
+    "description": "괴산에 위치한 풀빌라형  \n**[노적봉리조트]**입니다.\n\n2022년 7월 오픈!  \n신축 건물로 **깨끗하고 시설 좋은 리조트**\n\n백두대간 숲속 펜션형 리조트  \n다양한 부대시설로  \n여행의 즐거움을 더해드립니다.\n\n100명 수용 가능한 **세미나실** 운영  \n워크샵, 단체행사 OK!\n\n앞에는 1년 내내 마르지 않는  \n쌍곡계곡이 바로 위치해  \n여름 피서지로도 최적!  \n**트램폴린**도 마련되어  \n아이들과 뛰어놀기 좋은 환경입니다.\n\n여러 부대시설이 준비되어  \n이동 없이도 리조트 내에서  \n즐거운 시간을 보낼 수 있는  \n최고의 괴산 풀빌라형 리조트  \n**[노적봉리조트]**입니다.\n\n식당, 노래방, 찜질방, 수영장,  \n탁구장, 당구장, 세미나실,  \n매점, 카페 등  \n방문하시는 모든 고객분께  \n만족을 드리기 위해  \n다양하게 준비했습니다!  \n마음껏 즐겨주세요 :)\n\n\n[입·퇴실 안내]  \n- **입실**: 15:00  \n- **퇴실**: 11:00  \n- **관리실 위치**: 1층 프론트\n\n[예약 안내]  \n- 기준/최대 인원 반드시 준수  \n  (최대 인원 초과 시 입실 불가)\n- 성인(고1 이상): 10,000원  \n- 5세~중3: 5,000원  \n- 5세 미만: 무료  \n- 날짜/객실 변경 시  \n  반드시 예약 취소 후 재예약\n\n[바베큐 안내]  \n- 하절기: 18시~20시  \n- 동절기: 17시~19시  \n- 당일 선택/결제 가능  \n- 30,000원 (그릴, 번개탄1, 고기망1, 숯2, 면장갑1)\n- 평상1, 돗자리, 교자상 제공\n\n[주변 대표 관광지]  \n- 쌍곡계곡, 쌍곡폭포  \n- 산막이옛길  \n- 화양계곡  \n- 돌집  \n- 소옥폭포  \n- 칠보산, 군자산\n\n[주차장 안내]  \n- 1대/5인 기준  \n- 기준 초과해도 주차 가능 (전화문의 사절)  \n- 가능하면 **기준 차량** 준수 바랍니다  \n  (여행 비용 절감을 위해)",
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "amenities": [
+      "parking",
+      "valley",
+      "bbq",
+      "kitchen"
+    ],
+    "created_at": "2025-07-19T15:02:50.187Z",
+    "updated_at": "2025-07-19T15:02:50.187Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 22,
+  "fields": {
+    "name": "가평 해뜨는숲속펜션",
+    "location": "경기 가평군 상면 청우산2길 42-26",
+    "price": 310000,
+    "description": "청평 맑은 녹수계곡에 위치한  \n**해뜨는숲속펜션**입니다.\n\n물 맑고 공기 좋은 청평,  \n아름다운 전경과 계곡이 있는  \n자연 속 힐링 펜션!\n\n펜션 앞에는 여름철 물놀이에  \n최적의 **녹수계곡**이 흐르고 있습니다.\n\n차량 5분 거리에  \n**아침고요수목원, 꽃무지풀무지수목원** 등  \n다양한 명소가 있어  \n여행과 볼거리 모두 즐길 수 있습니다.\n\n청평 여행에서  \n저희 펜션이 편안한 휴식을  \n선물해드리겠습니다.\n\n\n[주요 시설/서비스]  \n- **실내수영장**  \n- **복층 구조**  \n- **계곡 인접**  \n- **와이파이(무료)**  \n- **기본양념 제공**  \n- **족구장**  \n- **개별 바베큐**  \n- **주차 가능**  \n- **픽업 가능**  \n- **상비약 구비**\n\n[액티비티 & 기타]  \n- 족구장 (펜션 전용)  \n- 수영장(야외, 하절기)  \n- 공용 주방/조리도구  \n- 편의점(도보 10분)  \n- 가평 눈썰매장, 아침고요수목원,  \n  별빛축제 할인권 제공\n\n[바비큐 안내]  \n- 개별 바비큐  \n- **숯+그릴 10,000원(2인 기준, 국산 참나무숯)**  \n- 이용시간: 오후 5시 ~ 밤 11시  \n- 겨울철 비닐천막, 난로 제공  \n- *펜션에서 제공하는 숯/그릴(유료) 외  \n  개별적 숯/그릴 사용금지*\n\n[수영장 안내]  \n- **야외수영장 (6/1 ~ 9/30 운영)**  \n- 이용시간: 입실 2시30분~오후7시  \n  (연박: 오전 11시30분~오후7시)  \n- **수건, 수영복, 수영모 필수**  \n- 다이빙 금지 (수심 1~1.2m)  \n- 영유아/어린이는 보호자 동반,  \n  구명조끼 착용 필수  \n- 음식물 반입, 오일 사용, 음주 후 이용 불가  \n- 수영장 내 신발 벗고 입수  \n- 수영장 외부는 신발 착용  \n- *개인 부주의 사고 책임지지 않습니다*\n\n[객실/이용 안내]  \n- **총 4개 객실**  \n- 아동 입실 허용  \n- 전 객실 금연  \n- **체크인:** 14:30~22:00  \n  (22시 이후 입실 시 사전 연락 필수)  \n- **체크아웃:** 11:00  \n- 1회용품(칫솔, 면도기 등) 일부 무료 제공 중단  \n  (자원재활용법 개정 적용)\n\n여러분의 여행과 휴식에  \n최적의 공간이 되겠습니다!",
+    "check_in": "14:30:00",
+    "check_out": "11:00:00",
+    "amenities": [
+      "wifi",
+      "parking",
+      "restaurant",
+      "valley",
+      "kitchen",
+      "foot_volleyball",
+      "pool",
+      "bbq"
+    ],
+    "created_at": "2025-07-19T15:24:54.709Z",
+    "updated_at": "2025-07-19T15:24:54.709Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 23,
+  "fields": {
+    "name": "가평 에스티하우스펜션 (바베큐 무한리필) 무료",
+    "location": "경기 가평군 설악면 유명산길 36",
+    "price": 225000,
+    "description": "[숙소 소개]  \n**에스티하우스**는  \n부담 없는 방값에  \n음악 공연(성수기/주말)과  \n바베큐 무한리필을  \n**무료**로 즐길 수 있는 펜션입니다.\n\n운영은 여러분의  \n자발적인 도움(셀프 운영)으로  \n함께 만들어갑니다.  \n바베큐 무한리필 이용 시  \n**정리정돈 서약 필수**  \n(설거지/분리수거만 잘 해주시면 OK!)\n\n가평 유명산 휴양림 입구에 위치,  \n잣나무와 맑은 공기,  \n노출 콘크리트의 세련된 디자인으로  \n자연과 조화를 이루는 펜션입니다.\n\n사계절 푸른 숲,  \n여름에도 에어컨이 필요 없을 만큼  \n시원한 자연 환경!\n\n펜션 앞에는 계곡,  \n도보 500m에 유명산 휴양림 입구,  \n유명산: 패러글라이딩, 서바이벌게임  \n청평호수: 실외수영장, 번지점프,  \n제트스키, 바나나보트, 수상스키 등  \n다양한 액티비티 즐길 수 있습니다.\n\n가평의 대표 관광지  \n(남이섬, 아침고요수목원, 쁘띠프랑스 등)  \n모두 차로 10~30분 거리!\n\n[구비 시설]  \n- 에어컨  \n- TV  \n- 취사시설  \n- 냉장고  \n- 커피포트  \n- 물비누/샴푸/수건  \n- 개별 테라스  \n- 공용 전자레인지  \n- 에어소파  \n*치약은 코로나 방지로 비치 X\n\n[예약 전 안내]  \n- 예약 전 펜션 **연락 필수**  \n- 바베큐 무한리필 **공짜**  \n- 애견 입실 가능 객실 있음(사전 통화 필수)\n\n[바베큐 무한리필 안내]  \n- **숯/그릴비 별도** (예약 전 전화 문의)  \n- 고기(목살/삼겹살), 밥, 쌈장, 김치, 굵은소금  \n  → 무한 추가요금 없이 **무료 제공**  \n  (밥은 평균량 제공, 추가 시 시간 소요됨)\n- 그 외 필요한 야채, 음료, 주류 등은  \n  직접 준비해 주세요.\n\n모두가 함께 즐기는  \n자유롭고 즐거운 펜션,  \n**에스티하우스**에서  \n특별한 추억 만들어보세요!",
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "amenities": [
+      "parking",
+      "wifi",
+      "valley",
+      "bbq",
+      "billiards"
+    ],
+    "created_at": "2025-07-19T15:37:24.611Z",
+    "updated_at": "2025-07-19T15:37:24.611Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 24,
+  "fields": {
+    "name": "대부도 팬션 밸리 (스피카)",
+    "location": "경기 안산시 단원구 부흥로216번길 6-2 (대부남동)",
+    "price": 300000,
+    "description": "[객실 정보 안내]\n\n· **넓이**: 약 105.8㎡ (32평형)  \n· **유형**: 독채(2층)  \n· **구성**: 2룸 / 2욕실  \n· **인원**: 기준 8명 / 최대 10명\n\n· **입실시간**: 14:00  \n  *21시 이후 입실 시, 사전 연락 필수*\n\n· **퇴실시간**: 11:00\n\n[야외수영장(냉수풀) 안내]  \n- 운영기간: **6월 1일 ~ 9월 7일**  \n- **냉수풀만 사용 가능**  \n- *이용 원할 시 최소 2~3일 전 예약 필수*  \n  (당일 취소 시 환불 불가)  \n- **전화예약:** 1588-4062  \n- *7~8월 성수기: 별도 신청 없이 무료 제공*  \n- *6월/9월: 유료(5만원)*\n\n[중요사항]  \n- **불멍장 이용 시 재료(장작, 장갑, 부탄가스 등) 직접 준비**\n- **택배 수령 불가** (입실 전 펜션으로 배송 안 됨)\n- **반려동물 절대 불가**  \n  (적발 시 즉시 퇴실 조치)\n- **최대 인원 절대 초과 불가**  \n  (잠시 머무는 인원 포함, 인원 추가 시 추가 비용 발생)\n\n[바베큐장 안내]  \n- **개별 바베큐장**: 무료, 자유 이용  \n- **비치된 집기류**: 가위, 집게, 토치(부탄가스 별도)\n- **그릴만 제공**  \n  (숯, 철망, 목장갑, 부탄가스, 번개탄 등 직접 준비 필요)\n- **바베큐 배달서비스(고기+상차림+숯/망)**  \n  → 원하실 경우 ‘바베큐 배달 서비스’ 안내 참고  \n  → *입실 1주일 전까지 신청 필수*  \n    (입실 1주일 전 이내엔 수량·메뉴 변경, 취소 불가)\n\n★ 펜션 주변에 마트/편의점이 없습니다!  \n  필요한 재료는 **입실 전 미리 구매**해오세요.\n\n[참고]\n- 모든 안내는 이용객의 편의와 안전을 위한 내용입니다.  \n- 추가 문의는 펜션으로 연락해 주세요.",
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "amenities": [
+      "wifi",
+      "parking",
+      "pool",
+      "kitchen",
+      "sea",
+      "bbq",
+      "karaoke",
+      "foot_volleyball"
+    ],
+    "created_at": "2025-07-19T15:45:58.924Z",
+    "updated_at": "2025-07-19T15:45:58.924Z"
+  }
+},
+{
+  "model": "accommodations.accommodation",
+  "pk": 25,
+  "fields": {
+    "name": "대부도 팬션 밸리 (가람)",
+    "location": "경기 안산시 단원구 부흥로216번길 6 (대부남동)",
+    "price": 300000,
+    "description": "[객실 정보 안내]\n\n· **넓이**: 약 105.8㎡ (32평형)  \n· **유형**: 독채 (2층)  \n· **구성**: 2룸 / 2화장실  \n· **인원**: 기준 10명 / 최대 12명  \n\n· **입실시간**: 14:00  \n  *21시 이후 입실 시 반드시 사전 연락 필수*  \n· **퇴실시간**: 11:00\n\n[야외 수영장(냉수풀) 안내]  \n- 운영 기간: **6월 1일 ~ 9월 7일**  \n- *냉수풀만 사용 가능*  \n- 최소 **2~3일 전 예약 필수**  \n  (당일 취소 시 환불 불가)  \n- **신청:** 1588-4062 전화 예약  \n- **7~8월(성수기): 무료 제공**  \n- **6월/9월: 유료(5만원)**  \n- *해당 기간 외 이용 불가*  \n- *7~8월 외 별도 신청 없을 경우 이용 불가*\n\n[기타 안내]  \n- **불멍장 이용 시**  \n  필요한 재료(장작, 장갑, 부탄가스 등)  \n  직접 준비해 오셔야 합니다.\n- **택배 수령 불가**  \n  (입실 전 펜션으로 배송X)\n- **반려동물 입실 절대 불가**  \n  (적발 시 즉시 퇴실 조치)\n- **최대 인원 절대 초과 불가**  \n  (잠시 머무르는 인원도 포함,  \n  인원 추가 시 추가 비용 발생)\n\n[바베큐장 안내]  \n- **개별 바베큐장 무료 이용**  \n- **그릴만 제공**  \n  (숯, 철망, 목장갑, 부탄가스, 번개탄 등  \n  직접 준비/셀프 이용)\n- **비치 집기류:**  \n  가위, 집게, 토치(부탄가스 별도)\n- **바베큐 배달 서비스**  \n  (고기+기본 상차림+숯·망)  \n  → 원하실 경우 바베큐 배달 서비스 안내 참고  \n  → *최소 입실 1주일 전 신청 필수*  \n    (입실 1주일 전 이내에는  \n    수량/메뉴 변경 및 취소 어려움)\n\n★ 펜션 주변에 마트/편의점이 없습니다!  \n  **입실 전 필요한 재료 꼭 준비**해 오세요.",
+    "check_in": "15:00:00",
+    "check_out": "11:00:00",
+    "amenities": [
+      "wifi",
+      "parking",
+      "pool",
+      "kitchen",
+      "sea",
+      "bbq",
+      "karaoke"
+    ],
+    "created_at": "2025-07-19T15:55:47.824Z",
+    "updated_at": "2025-07-19T15:55:47.824Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 3,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드_5.jpeg",
+    "alt_text": "다운로드 (5).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.668Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 4,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드_4.jpeg",
+    "alt_text": "다운로드 (4).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.721Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 5,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드_3.jpeg",
+    "alt_text": "다운로드 (3).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.752Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 6,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드_2.jpeg",
+    "alt_text": "다운로드 (2).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.804Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 7,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드.jpeg",
+    "alt_text": "다운로드.jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.831Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 8,
+  "fields": {
+    "accommodation": 19,
+    "image": "accommodations/19/다운로드_1.jpeg",
+    "alt_text": "다운로드 (1).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T14:30:20.858Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 9,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드_5.jpeg",
+    "alt_text": "다운로드 (5).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.535Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 10,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드_4.jpeg",
+    "alt_text": "다운로드 (4).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.607Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 11,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드_3.jpeg",
+    "alt_text": "다운로드 (3).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.676Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 12,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드_2.jpeg",
+    "alt_text": "다운로드 (2).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.784Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 13,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드_1.jpeg",
+    "alt_text": "다운로드 (1).jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.827Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 14,
+  "fields": {
+    "accommodation": 20,
+    "image": "accommodations/20/다운로드.jpeg",
+    "alt_text": "다운로드.jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:02:50.901Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 15,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80c2bbb21.37681660.jpg",
+    "alt_text": "677dd80c2bbb21.37681660.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:54.809Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 16,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80cca6ab4.04953929.jpg",
+    "alt_text": "677dd80cca6ab4.04953929.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:54.851Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 17,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80e233693.35335287.jpg",
+    "alt_text": "677dd80e233693.35335287.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:54.951Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 18,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd801bd31a8.04320904.jpg",
+    "alt_text": "677dd801bd31a8.04320904.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.036Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 19,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd803a7a7b6.08301230.jpg",
+    "alt_text": "677dd803a7a7b6.08301230.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.112Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 20,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd805e56704.14744130.jpg",
+    "alt_text": "677dd805e56704.14744130.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.180Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 21,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd807cc9f30.82421071.jpg",
+    "alt_text": "677dd807cc9f30.82421071.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.284Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 22,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80264c897.73982799.jpg",
+    "alt_text": "677dd80264c897.73982799.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.361Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 23,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80308bad8.38595412.jpg",
+    "alt_text": "677dd80308bad8.38595412.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.420Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 24,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd8045164a6.42594368.jpg",
+    "alt_text": "677dd8045164a6.42594368.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.549Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 25,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd805559214.08424869.jpg",
+    "alt_text": "677dd805559214.08424869.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.625Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 26,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd806835889.23820110.jpg",
+    "alt_text": "677dd806835889.23820110.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.653Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 27,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd809079101.69463483.jpg",
+    "alt_text": "677dd809079101.69463483.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.737Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 28,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/66d45619bd6fc2.10078658.jpg",
+    "alt_text": "66d45619bd6fc2.10078658.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:55.917Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 29,
+  "fields": {
+    "accommodation": 22,
+    "image": "accommodations/22/677dd80add9947.56752378.jpg",
+    "alt_text": "677dd80add9947.56752378.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:24:56.007Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 30,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/다운로드.jpeg",
+    "alt_text": "다운로드.jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.683Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 31,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/IMG_9242.jpeg",
+    "alt_text": "IMG_9242.jpeg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.757Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 32,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/5f354ab75621c2.56049985.jpg",
+    "alt_text": "5f354ab75621c2.56049985.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.805Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 33,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a8e96160.45946191.jpg",
+    "alt_text": "6606b1a8e96160.45946191.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.853Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 34,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a80a31d9.96383863.jpg",
+    "alt_text": "6606b1a80a31d9.96383863.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.902Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 35,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a73a8509.26499522.jpg",
+    "alt_text": "6606b1a73a8509.26499522.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:24.974Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 36,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a5c1e4e5.43629503.jpg",
+    "alt_text": "6606b1a5c1e4e5.43629503.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:25.056Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 37,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a5055c45.85538327.jpg",
+    "alt_text": "6606b1a5055c45.85538327.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:25.097Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 38,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a44a3b05.12394590.jpg",
+    "alt_text": "6606b1a44a3b05.12394590.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:25.157Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 39,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a33dc6a3.42333740.jpg",
+    "alt_text": "6606b1a33dc6a3.42333740.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:25.219Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 40,
+  "fields": {
+    "accommodation": 23,
+    "image": "accommodations/23/6606b1a274a325.45495871.jpg",
+    "alt_text": "6606b1a274a325.45495871.jpg",
+    "order": 0,
+    "created_at": "2025-07-19T15:37:25.288Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 41,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004337.png",
+    "alt_text": "스크린샷 2025-07-20 004337.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:58.971Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 42,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004327.png",
+    "alt_text": "스크린샷 2025-07-20 004327.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.048Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 43,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004317.png",
+    "alt_text": "스크린샷 2025-07-20 004317.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.130Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 44,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004310.png",
+    "alt_text": "스크린샷 2025-07-20 004310.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.223Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 45,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004254.png",
+    "alt_text": "스크린샷 2025-07-20 004254.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.273Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 46,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004246.png",
+    "alt_text": "스크린샷 2025-07-20 004246.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.389Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 47,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004239.png",
+    "alt_text": "스크린샷 2025-07-20 004239.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.419Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 48,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004229.png",
+    "alt_text": "스크린샷 2025-07-20 004229.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.509Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 49,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004219.png",
+    "alt_text": "스크린샷 2025-07-20 004219.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.584Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 50,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004211.png",
+    "alt_text": "스크린샷 2025-07-20 004211.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.673Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 51,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004200.png",
+    "alt_text": "스크린샷 2025-07-20 004200.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.711Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 52,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004152.png",
+    "alt_text": "스크린샷 2025-07-20 004152.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.741Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 53,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004143.png",
+    "alt_text": "스크린샷 2025-07-20 004143.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.776Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 54,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004136.png",
+    "alt_text": "스크린샷 2025-07-20 004136.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.829Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 55,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004128.png",
+    "alt_text": "스크린샷 2025-07-20 004128.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.880Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 56,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004120.png",
+    "alt_text": "스크린샷 2025-07-20 004120.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:45:59.979Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 57,
+  "fields": {
+    "accommodation": 24,
+    "image": "accommodations/24/스크린샷_2025-07-20_004114.png",
+    "alt_text": "스크린샷 2025-07-20 004114.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:46:00.024Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 58,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005338.png",
+    "alt_text": "스크린샷 2025-07-20 005338.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:47.879Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 59,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005331.png",
+    "alt_text": "스크린샷 2025-07-20 005331.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:47.974Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 60,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005324.png",
+    "alt_text": "스크린샷 2025-07-20 005324.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.073Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 61,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005313.png",
+    "alt_text": "스크린샷 2025-07-20 005313.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.154Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 62,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005304.png",
+    "alt_text": "스크린샷 2025-07-20 005304.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.265Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 63,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005256.png",
+    "alt_text": "스크린샷 2025-07-20 005256.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.364Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 64,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005248.png",
+    "alt_text": "스크린샷 2025-07-20 005248.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.464Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 65,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005234.png",
+    "alt_text": "스크린샷 2025-07-20 005234.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.573Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 66,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005228.png",
+    "alt_text": "스크린샷 2025-07-20 005228.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.607Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 67,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005221.png",
+    "alt_text": "스크린샷 2025-07-20 005221.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.655Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 68,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005213.png",
+    "alt_text": "스크린샷 2025-07-20 005213.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.720Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 69,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005206.png",
+    "alt_text": "스크린샷 2025-07-20 005206.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.822Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 70,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005200.png",
+    "alt_text": "스크린샷 2025-07-20 005200.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.857Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 71,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005152.png",
+    "alt_text": "스크린샷 2025-07-20 005152.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.955Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 72,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005106.png",
+    "alt_text": "스크린샷 2025-07-20 005106.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:48.989Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 73,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005100.png",
+    "alt_text": "스크린샷 2025-07-20 005100.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:49.071Z"
+  }
+},
+{
+  "model": "accommodations.accommodationimage",
+  "pk": 74,
+  "fields": {
+    "accommodation": 25,
+    "image": "accommodations/25/스크린샷_2025-07-20_005053.png",
+    "alt_text": "스크린샷 2025-07-20 005053.png",
+    "order": 0,
+    "created_at": "2025-07-19T15:55:49.129Z"
+  }
+}
+]
