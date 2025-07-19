@@ -20,12 +20,12 @@ urlpatterns = [
 
     # 투표 통계 정보
     # GET /api/votes/stats/ - 투표 통계 조회 (전체 투표 수, 평균 평점, 평점 분포 등)
-    path('stats/', views.vote_stats, name='vote-stats'),
+    path('votes/stats/', views.vote_stats, name='vote-stats'),
 
     # 특정 투표 상세 정보
     # GET /api/votes/{id}/ - 특정 투표 정보 조회
     # PUT /api/votes/{id}/ - 특정 투표 수정
     # PATCH /api/votes/{id}/ - 특정 투표 부분 수정
     # DELETE /api/votes/{id}/ - 특정 투표 삭제
-    path('<int:pk>/', views.VoteDetailView.as_view(), name='vote-detail'),
+    path('votes/<int:pk>/', views.VoteDetailView.as_view(), name='vote-detail'),
 ]

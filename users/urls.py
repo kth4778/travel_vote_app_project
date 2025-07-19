@@ -14,11 +14,11 @@ app_name = 'users'
 urlpatterns = [
     path('users/', views.UserListCreateView.as_view(), name='user-list-create'),
     path('users/login/', views.user_login, name='user-login'),
-    path('stats/', views.user_stats, name='user-stats'),
-    path('<int:pk>/', views.UserDetailView.as_view(), name='user-detail'),
-    path('<int:user_id>/check-admin/', views.check_admin, name='check-admin'),
+    path('users/stats/', views.user_stats, name='user-stats'),
+    path('users/<int:pk>/', views.UserDetailView.as_view(), name='user-detail'),
+    path('users/<int:user_id>/check-admin/', views.check_admin, name='check-admin'),
 
     # votes 앱에서 가져온 함수와 클래스들 사용
-    path('<int:user_id>/activity/', user_activity_summary, name='user-activity'),
-    path('<int:user_id>/votes/', UserVoteListView.as_view(), name='user-votes'),
+    path('users/<int:user_id>/activity/', user_activity_summary, name='user-activity'),
+    path('users/<int:user_id>/votes/', UserVoteListView.as_view(), name='user-votes'),
 ]
