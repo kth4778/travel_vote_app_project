@@ -19,7 +19,7 @@ urlpatterns = [
 # DEBUG=False일 때 static 헬퍼는 작동하지 않으므로, serve 뷰를 직접 사용
 if not settings.DEBUG:
     urlpatterns += [
-        re_path(r'^media/(?P<path>.*), serve, {'document_root': settings.MEDIA_ROOT}),
+        re_path(r'^media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
     ]
 
 # 개발 환경에서만 정적 파일 서빙 설정
